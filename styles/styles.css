@@ -113,7 +113,7 @@
 
 /*inflation grid*/
 #inflation-box {
-    background-image: url("inflation-1.png");
+    background-image: url("../inflation-1.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
