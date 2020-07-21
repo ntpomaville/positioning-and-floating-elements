@@ -1,0 +1,182 @@
+#content {
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+}
+
+#page-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 25px;
+    background-color: white;
+    border-bottom: 1px solid #e2e2e2;
+    text-align: center;
+    padding: 10px;
+    z-index: 2;
+}
+
+#nav {
+    float: left;
+    padding-top: 4px;
+}
+
+.button {
+    padding: 9px 12px 9px;
+    font-family: 'nyt-franklin', helvetica, arial, sans-serif;
+    white-space: nowrap;
+    vertical-align: middle;
+    background-color: rgb(86, 123, 149);
+    color: rgb(255, 255, 255);
+    font-size: 11px;
+    line-height: 11px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    border-radius: 3px;
+    transition: all 0.6s ease 0s;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(50, 104, 145);
+    margin-top: -2px;
+}
+
+#subscribe-btn {
+    float: right;
+}
+
+#login-btn {
+    float: right;
+    margin: -2px 30px 0 7px;
+}
+
+#main-article {
+    padding-top: 40px;
+    font-family: 'nyt-imperial',georgia,'times new roman',times,serif;
+    font-size: 1.125rem;
+    line-height: 1.5625rem;
+    position: relative;
+    display: block;
+    text-align: center;
+}
+
+#article-header {
+    text-align: center;
+    display: inline-block;
+    max-width: 1024px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+#article-title {
+    text-align: center;
+}
+
+#cosmos-img {
+    display: inline;
+    margin: auto;
+}
+
+#cosmos-desc {
+    text-align: left;
+    color: #666;
+    font-size: 16px;
+    font-weight: 0;
+}
+
+#cosmos-credit {
+    color: #888;
+    font-size: 12px;
+    font-weight: 0;
+}
+
+.article-sec {
+    width: 500px;
+    margin: auto;
+    text-align: left;
+}
+
+#inflation {
+    margin: auto;
+    padding: 15px 0 30px 0;
+    max-width: 1000px;
+    min-width: 1000px;
+    font-family: 'nyt-cheltenham',georgia,'times new roman',times,serif;
+}
+
+#inflation-title {
+    font-size: 1.25rem;
+}
+
+#inflation-info {
+    font-size: .875rem;
+    color: #666;
+}
+
+/*inflation grid*/
+#inflation-box {
+    background-image: url("/inflation-1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 14px;
+    line-height: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr .75fr .75fr 1fr;
+    column-gap: 25px;
+    row-gap: 20px;
+}
+
+/*inflation grid items*/
+#inflation-grid-fill1 {
+    grid-column: 1 / 5;
+    grid-row: 1 / 2;
+}
+
+#inflation-grid-p1 {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+#inflation-grid-p2 {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+#inflation-grid-p3 {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+}
+
+#inflation-grid-p4 {
+    grid-column: 4 / 5;
+    grid-row: 2 / 3;
+}
+
+#inflation-grid-fill2 {
+    grid-column: 1 / 5;
+    grid-row: 3 / 4;
+}
+
+#inflation-grid-p5 {
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+}
+
+#inflation-grid-p6 {
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+}
+
+#inflation-grid-p7 {
+    grid-column: 3 / 4;
+    grid-row: 4 / 5;
+}
+
+#inflation-grid-p8 {
+    grid-column: 4 / 5;
+    grid-row: 4 / 5;
+}
+
+#this-section-by {
+    text-align: left;
+}
